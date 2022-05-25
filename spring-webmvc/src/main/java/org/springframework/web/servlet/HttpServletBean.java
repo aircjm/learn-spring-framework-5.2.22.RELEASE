@@ -166,6 +166,7 @@ public abstract class HttpServletBean extends HttpServlet implements Environment
 			}
 		}
 
+		// cjm 具体初始化Bean的过程
 		// Let subclasses do whatever initialization they like.
 		initServletBean();
 	}
